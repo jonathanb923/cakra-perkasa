@@ -11,42 +11,31 @@ const Navbar = () => {
 
   return (
     <>
+      <div className="main_navbar">
       <nav className="nav-wrapper">
       <img className="logo" src={process.env.PUBLIC_URL + '/cakra-logo.png'} alt="" />
         <div className="nav-content">
           <img className="burger-btn" src={openMenu ? "close-icon2.png" : "hamburger2.png"} alt="" onClick={toggleMenu}/>
           <ul className={openMenu ? "menu-items openMenu" : "menu-items"}>
             <li>
-              <a href="#Home" className="menu-item">Home</a>
+              <a href="/" className="menu-item">Home</a>
             </li>
             <li>
               <div className="dropdown">
-                <a href="#Home" className="menu-item">Company Profile</a>
-                <div className="dropdown-content">
-                  <a href="#test">Latar Belakang</a>
-                  <a href="#test">Visi & Misi</a>
-                  <a href="#test">Bidang Usaha</a>
-                </div>
+                <a href="#Home" className="menu-item">Product & Service</a>
               </div>
             </li>
             <li>
-              <div className="dropdown">
                 <a href="#Home" className="menu-item">Machinery</a>
-                <div className="dropdown-content">
-                  <a href="#test">Workshop's Equipment</a>
-                  <a href="#test">Machinery List</a>
-                  <a href="#test">Gallery</a>
-                </div>
-              </div>
             </li>
             <li>
-              <a href="#Home" className="menu-item">Our Clients</a>
+              <a href="/clients" className="menu-item">Our Clients</a>
             </li>
             <li>
-              <a href="#Home" className="menu-item">Products</a>
+              <a href="/about" className="menu-item">About Us</a>
             </li>
             <li>
-              <a href="#Home" className="menu-item">Contact us</a>
+              <a href="/contact" className="menu-item">Contact us</a>
             </li>
             <li>
             <div className="dropdown">
@@ -61,6 +50,15 @@ const Navbar = () => {
 
         </div>
       </nav>
+      <div className="sect">
+        <div>
+              <h1>Welcome To </h1> 
+              <br />
+              <h1>Cakra Group Indonesia</h1>
+          </div>
+          <button className="get-started">Get Started</button>
+      </div>
+      </div>
     </>
   );
 }

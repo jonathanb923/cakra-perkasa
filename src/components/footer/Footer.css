@@ -1,0 +1,23 @@
+.footer_container{
+    background-color: #a993fe;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_content{
+    padding : 40px 100px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 15px;
+}
+
+.footer_logo{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_socmed{
+    display: flex;
+    justify-content: center;
+}

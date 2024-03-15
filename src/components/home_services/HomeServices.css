@@ -1,0 +1,30 @@
+.home_services_section{
+    background-color: aliceblue ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.home_services_title{
+    text-align: center;
+}
+
+.home_services_images{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    z-index: 2;
+    padding-left : 10%;
+    padding-right: 10%;
+}
+
+.home_services_image{
+    height: 280px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+    list-style: none;
+}

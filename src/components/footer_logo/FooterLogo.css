@@ -1,0 +1,13 @@
+.footer_logo_content{
+    display: flex;
+}
+
+.footer_logo_logo{
+    width: 70px;
+    height: 70px;
+    margin: auto 0;
+}
+
+.footer_logo_description{
+    margin-left: 20px;
+}
