@@ -8,7 +8,24 @@ export const ContactHeader = () => {
                 Head Office Name
             </h2>
             <div className="contact_header_contacts">
-
+                <div className="contact_header_detail">
+                    <img src="blank.png" alt="" />
+                    Our Address
+                    <br />
+                    Jl. Marsma R. Iswahyudi No.478 Balikpapan
+                </div>
+                <div className="contact_header_detail">
+                    <img src="blank.png" alt="" />  
+                    Email Us
+                    <br />
+                    cakragroup@cakra.com
+                </div>
+                <div className="contact_header_detail">
+                    <img src="blank.png" alt="" />
+                    Contact Us
+                    <br />
+                    (+62)812323232323
+                </div>
             </div>
         </div>
     )

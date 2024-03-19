@@ -3,5 +3,17 @@ h2{
 }
 
 .contact_header_container{
-    margin: 50px 0;
+    margin: 50px 350px;
+}
+
+.contact_header_contacts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact_header_detail{
+    display: flex;
+    flex-direction: column;
 }
