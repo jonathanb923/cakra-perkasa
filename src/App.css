@@ -278,7 +278,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 30px;
     z-index: 2;
     padding-left : 10%;
@@ -288,7 +288,7 @@ h1{
 .home_services_image{
     height: 280px;
     width: 280px;
-    margin-bottom: 50px;
+    margin: 50px;
     display: flex;
     align-items: center;
     gap:0.5rem;
