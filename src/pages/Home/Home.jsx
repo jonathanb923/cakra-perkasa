@@ -9,13 +9,12 @@ const Home = () => {
       <Navbar>
         <div className="sect">
           <div className="sect_content">
-                <h1>Welcome To </h1> 
-                <br />
-                <h1>Cakra Group Indonesia</h1>
-            </div>
-            <button className="get-started" onClick={() => {
-              ref.current?.scrollIntoView({behavior: 'smooth'});
-            }}>Get Started</button>
+            <h1>Welcome To </h1> 
+            <h1>Cakra Group Indonesia</h1>
+          </div>
+          <button className="get-started" onClick={() => {
+            ref.current?.scrollIntoView({behavior: 'smooth'});
+          }}>Get Started</button>
         </div>
       </Navbar>
       {/* About Us */}
