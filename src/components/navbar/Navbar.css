@@ -123,8 +123,13 @@
   
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
-  .sect{
-    }
+  .sect {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
 
     
 

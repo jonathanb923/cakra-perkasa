@@ -1,7 +1,7 @@
 
 import './App.css';
 import { About } from './components/about/About';
-import { Home } from './components/home/Home';
+import Home from './pages/Home/Home';
 import { Contact } from './components/contact/Contact';
 import { Footer } from './components/footer/Footer';
 import { OurClients } from './components/clients/OurClients';
