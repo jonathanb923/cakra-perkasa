@@ -1,13 +1,25 @@
-import React from 'react'
+import React, { useRef }  from 'react'
 import Navbar from '../../components/navbar/Navbar'
 import { FooterLogo } from "../../components/footer_logo/FooterLogo";
 
 const Home = () => {
+  const ref = useRef(null);
   return (
     <div>
-      <Navbar/>
+      <Navbar>
+        <div className="sect">
+          <div className="sect_content">
+                <h1>Welcome To </h1> 
+                <br />
+                <h1>Cakra Group Indonesia</h1>
+            </div>
+            <button className="get-started" onClick={() => {
+              ref.current?.scrollIntoView({behavior: 'smooth'});
+            }}>Get Started</button>
+        </div>
+      </Navbar>
       {/* About Us */}
-      <section className='about_container'>
+      <section ref={ref} className='about_container'>
         <div className='about_content'>
           <img className='about_image' src="konstruksi4.png" alt="" />
           <div className='about_description'>
