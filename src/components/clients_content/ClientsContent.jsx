@@ -89,16 +89,54 @@ export const ClientsContent = () => {
                 </div>
                 <div className="clients_content_list">
                     <h3>Agro Industry</h3>
+                    PT. Smart 
+                    <br />
+                    PT. Salim 
+                    <br />
+                    PT. Inhutani 
+                    <br />
+                    PT. Bumi Hutani Lestari 
+                    <br />
+                    PTP. Centramas Nusantara 
+
                 </div>
                 <div className="clients_content_list">
                     <h3>Shipping</h3>
+                    SPIL 
+                    <br />
+                    PT. Arpeni 
+                    <br />
+                    PT. Righ Tenders 
+                    <br />
+                    PT. Mitra Bahtera
                 </div>
            </div>
            <div className="clients_content_third_line">
-
-           </div>
+                <div className="clients_content_list">
+                        <h3>Crumb Rubber</h3>
+                        Insan Bonfaide 
+                        <br />
+                        Hok Tong
+                        <br />
+                        Banua Lima Sejanis
+                </div>
+                <div className="clients_content_list">
+                        <h3>Government</h3>
+                        Government of South Kalimantan
+                        <br />
+                        Government of East Kalimantan
+                </div>
+                <div className="clients_content_list">
+                        <h3>PowerPlant</h3>
+                        PLN
+                </div>
+            </div>
+                
            <div className="clients_content_fourth_line">
-
+                <div className="clients_content_list">
+                        <h3>Cement Industry</h3>
+                        PT. Indocement Tunggal Prakarsa
+                </div>
            </div>
         </div>
     )

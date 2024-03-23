@@ -1,4 +1,4 @@
-.main_navbar{
+.small_navbar{
 
     background-color: #a993fe;
 }
@@ -129,11 +129,11 @@
     /* background-image: "hamburer.png"; */
 }
 
-h1{
+.small_navbar_h1{
     text-align: center;
 }
  
-h2{
+.small_navbar_h3{
     text-align: center;
 }
 

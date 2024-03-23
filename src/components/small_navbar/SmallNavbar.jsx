@@ -7,7 +7,7 @@ export const SmallNavbar = ({title}) => {
         setOpenMenu(!openMenu);
     }
     return (
-        <div className="main_navbar">
+        <div className="small_navbar">
             <nav className="nav-wrapper">
                 <img className="logo" src={process.env.PUBLIC_URL + '/cakra-logo.png'} alt="" />
                 <div className="nav-content">
@@ -18,17 +18,12 @@ export const SmallNavbar = ({title}) => {
                     </li>
                     <li>
                     <div className="dropdown">
-                    <a href="#Home" className="menu-item">Product & Service</a>
+                    <a href="/product_service" className="menu-item">Product & Service</a>
                     </div>
                     </li>
                     <li>
                     <div className="dropdown">
-                        <a href="#Home" className="menu-item">Machinery</a>
-                        <div className="dropdown-content">
-                        <a href="#test">Workshop's Equipment</a>
-                        <a href="#test">Machinery List</a>
-                        <a href="#test">Gallery</a>
-                        </div>
+                        <a href="/machinery" className="menu-item">Machinery</a>
                     </div>
                     </li>
                     <li>
@@ -55,9 +50,9 @@ export const SmallNavbar = ({title}) => {
             </nav>
             <div className="small_navbar_sect">
                 <div>
-                    <h1>{title}</h1> 
+                    <h1 className='small_navbar_h1'>{title}</h1> 
                     <br />
-                    <h2>Home / {title}</h2>
+                    <h3 className='small_navbar_h3'>Home / {title}</h3>
                 </div>
             </div>
         </div>

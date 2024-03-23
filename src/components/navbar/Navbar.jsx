@@ -22,11 +22,11 @@ const Navbar = () => {
             </li>
             <li>
               <div className="dropdown">
-                <a href="#Home" className="menu-item">Product & Service</a>
+                <a href="/product_service" className="menu-item">Product & Service</a>
               </div>
             </li>
             <li>
-                <a href="#Home" className="menu-item">Machinery</a>
+                <a href="/machinery" className="menu-item">Machinery</a>
             </li>
             <li>
               <a href="/clients" className="menu-item">Our Clients</a>
@@ -51,12 +51,17 @@ const Navbar = () => {
         </div>
       </nav>
       <div className="sect">
-        <div>
+        <div className="sect_content">
               <h1>Welcome To </h1> 
               <br />
               <h1>Cakra Group Indonesia</h1>
           </div>
-          <button className="get-started">Get Started</button>
+          <button className="get-started" onClick={() => {
+            window.scrollBy({
+              top:window.innerHeight,
+              behavior:'smooth'
+            })
+          }}>Get Started</button>
       </div>
       </div>
     </>

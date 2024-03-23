@@ -1,5 +1,5 @@
 .main_navbar{
-
+    height: 100vh;
     background-color: #a993fe;
 }
 
@@ -124,10 +124,9 @@
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
   .sect{
-    padding: 100px;
-    padding-bottom: 100px;
-    /* background-image: "hamburer.png"; */
-}
+    }
+
+    
 
 h1{
     text-align: center;

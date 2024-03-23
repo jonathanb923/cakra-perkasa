@@ -5,6 +5,7 @@ import { Home } from './components/home/Home';
 import { Contact } from './components/contact/Contact';
 import { Footer } from './components/footer/Footer';
 import { OurClients } from './components/clients/OurClients';
+import { Machinery } from './components/machinery/Machinery';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -16,6 +17,11 @@ function App() {
             exact
             path='/'
             element={<Home/>}>
+          </Route>
+          <Route
+            exact
+            path='/product_service'
+            element={<About title="Product & Service"/>}>
           </Route>
           <Route
             exact
@@ -31,6 +37,11 @@ function App() {
             exact
             path='/clients'
             element={<OurClients title="Our Clients"/>}>
+          </Route>
+          <Route
+            exact
+            path='/machinery'
+            element={<Machinery title="Machinery"/>}>
           </Route>
         </Routes>
       </Router>

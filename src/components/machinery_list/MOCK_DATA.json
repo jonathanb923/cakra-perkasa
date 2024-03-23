@@ -1,0 +1,14 @@
+[
+    {
+        "id":1 , "description":"Hydraulic Crankshaft Grinder", "makers_name":"AMC", "country_of_origin":"Denmark", "model":"K-2700-U", "capacity":"690x2700 mm" , "unit":"1"
+    },
+    {
+        "id":2 , "description":"Hydraulic Crankshaft Grinder", "makers_name":"AMC", "country_of_origin":"Denmark", "model":"K-2000-M", "capacity":"690x2190 mm" , "unit":"1"
+    },
+    {
+        "id":3 , "description":"Crankshaft Grinder", "makers_name":"Vereco", "country_of_origin":"Italy", "model":"RG.300BU", "capacity":"600x2700 mm" , "unit":"1"
+    },
+    {
+        "id":4 , "description":"Crankshaft Grinder", "makers_name":"Sanroso", "country_of_origin":"Italy", "model":"MITO - 280", "capacity":"560 x 2000 mm" , "unit":"1"
+    }
+]
