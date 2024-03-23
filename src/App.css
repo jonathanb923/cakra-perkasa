@@ -295,7 +295,7 @@ h1{
     list-style: none;
 }
 .home_products_logo{
-    width: 400px;
+    width: 300px;
     height: 500px;
     margin-left: 100px;
 }
@@ -307,20 +307,21 @@ h1{
     padding: 73px;
     z-index: 1;
     margin: auto;
-    width: 70%;
 }
 
 .home_products_content{
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
 }
 
 .home_products_description{
     display: flex;
     flex-direction: column;
     gap:25px;
-    width: 50%;
+    padding-left : 10%;
+    padding-right: 10%;
 }
 
 .home_products_list{
@@ -343,6 +344,13 @@ h1{
 .home_products_item_text{
     display: inline-flex;
 }
+
+.home_products_desc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 

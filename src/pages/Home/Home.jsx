@@ -1,5 +1,6 @@
 import React, { useRef }  from 'react'
 import Navbar from '../../components/navbar/Navbar'
+import ProductImg from '../../assets/product.png'
 import { FooterLogo } from "../../components/footer_logo/FooterLogo";
 
 const Home = () => {
@@ -45,53 +46,70 @@ const Home = () => {
       </div>
       {/* Product */}
       <div>
-        <section className='home_products_container'>
-          <div className='home_products_content'>
-              <div className='home_products_description'>
-                  <h2 className='home_products_title'>Product</h2>
-                      <div className="home_products_item">
-                          <img className="home_products_image" src="cakra-logo.png" alt="" />
-                          <p className="home_products_item_text">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                          </p>
-                      </div>
-                      <div className="home_products_item">
-                          <img className="home_products_image" src="cakra-logo.png" alt="" />
-                          <p className="home_products_item_text">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                          </p>
-                      </div>
-                      <div className="home_products_item">
-                          <img className="home_products_image" src="cakra-logo.png" alt="" />
-                          <p className="home_products_item_text">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                          </p>
-                      </div>
-                      <div className="home_products_item">
-                          <img className="home_products_image" src="cakra-logo.png" alt="" />
-                          <p className="home_products_item_text">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                          </p>
-                      </div>
-                      <div className="home_products_item">
-                          <img className="home_products_image" src="cakra-logo.png" alt="" />
-                          <p className="home_products_item_text">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                          </p>
-                      </div>
+        <section style={{
+          display: 'flex',
+          justifyContent: 'center'
+        }}>
+          <div
+            style={{
+              marginTop: 30,
+              paddingLeft : '10%',
+              paddingRight: '10%'
+            }}
+          >
+            <h2 className='home_products_title'>Product</h2>
+            <div 
+              style={{display: 'flex'}}
+            >
+              <div style={{width: '400px'}}>
+                <div className='home_products_desc'>
+                  <img style={{width: 40, height: 40, marginRight:20}} src="cakra-logo.png" alt="" />
+                  <p className="home_products_item_text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                  </p>
+                </div>
+                <div className='home_products_desc'>
+                  <img style={{width: 40, height: 40, marginRight:20}} src="cakra-logo.png" alt="" />
+                  <p className="home_products_item_text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                  </p>
+                </div>
+                <div className='home_products_desc'>
+                  <img style={{width: 40, height: 40, marginRight:20}} src="cakra-logo.png" alt="" />
+                  <p className="home_products_item_text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                  </p>
+                </div>
+                <div className='home_products_desc'>
+                  <img style={{width: 40, height: 40, marginRight:20}} src="cakra-logo.png" alt="" />
+                  <p className="home_products_item_text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                  </p>
+                </div>
               </div>
-              <img className='home_products_logo' src="construction-portrait.png" alt="" />
+              <div
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  height: '100%',
+                  marginLeft: 40
+                }}
+              >
+                <img style={{height: 485}} src={ProductImg} />
+              </div>
+            </div>
           </div>
         </section>
       </div>
+      {/* Contact Us */}
       <div className="home_contact_container">
         <div className="home_contact_content">
           <div className="home_contact_description home_contact_child">
-              <h2 className="home_contact_title">For further inquiries, please feel free to contact us</h2>
-              <FooterLogo/>
+            <h2 className="home_contact_title">For further inquiries, please feel free to contact us</h2>
+            <FooterLogo/>
           </div>
           <div className="home_contact_form home_contact_child">
-              <form action="">
+            <form action="">
               <input type="text" id="home_contact_fname" name="firstname" placeholder="Your First Name.."/>
 
               <input type="text" id="home_contact_email" name="email" placeholder="Your Email.."/>
@@ -101,31 +119,32 @@ const Home = () => {
               <textarea className="form_message" name="message" id="home_contact_message" cols="30" rows="7" placeholder="Enter Message..."></textarea>
 
               <input className="form_submit_button" type="submit" />
-              </form>
+            </form>
           </div>
         </div>
       </div>
+      {/* Client */}
       <div className="home_clients_section">
         <h2 className="home_clients_title">-- Our Client --</h2>
-            <ul className="home_clients_ul">
-                <li className="home_clients_li">Oil & Gas</li>
-                <li className="home_clients_li">Coal Mining</li>
-                <li className="home_clients_li">Heavy Equipment</li>
-                <li className="home_clients_li">Cement Industries</li>
-                <li className="home_clients_li">Plywood Industry</li>
-                <li className="home_clients_li">Agro Industry</li>
-                <li className="home_clients_li">Power Plant</li>
-                <li className="home_clients_li">Crumb Rubber</li>  
-                <li className="home_clients_li">Shipping</li>  
-                <li className="home_clients_li">Government</li>
-            </ul>
+          <ul className="home_clients_ul">
+            <li className="home_clients_li">Oil & Gas</li>
+            <li className="home_clients_li">Coal Mining</li>
+            <li className="home_clients_li">Heavy Equipment</li>
+            <li className="home_clients_li">Cement Industries</li>
+            <li className="home_clients_li">Plywood Industry</li>
+            <li className="home_clients_li">Agro Industry</li>
+            <li className="home_clients_li">Power Plant</li>
+            <li className="home_clients_li">Crumb Rubber</li>  
+            <li className="home_clients_li">Shipping</li>  
+            <li className="home_clients_li">Government</li>
+          </ul>
         <div className="home_clients_photos">
-            <img className="home_clients_photo" src="blank.png" alt="" />
-            <img className="home_clients_photo" src="blank.png" alt="" />
-            <img className="home_clients_photo" src="blank.png" alt="" />
+          <img className="home_clients_photo" src="blank.png" alt="" />
+          <img className="home_clients_photo" src="blank.png" alt="" />
+          <img className="home_clients_photo" src="blank.png" alt="" />
         </div>
         <button className="home_clients_button">
-            See More
+          See More
         </button>
       </div>
     </div>
