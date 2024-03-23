@@ -53,8 +53,6 @@ const Home = () => {
           <div
             style={{
               marginTop: 30,
-              paddingLeft : '10%',
-              paddingRight: '10%'
             }}
           >
             <h2 className='home_products_title'>Product</h2>
