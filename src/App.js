@@ -1,11 +1,11 @@
 
 import './App.css';
-import { About } from './components/about/About';
+import { About } from './pages/About_us/About';
 import Home from './pages/Home/Home';
-import { Contact } from './components/contact/Contact';
+import { Contact } from './pages/Contact_us/Contact';
 import { Footer } from './components/footer/Footer';
-import { OurClients } from './components/clients/OurClients';
-import { Machinery } from './components/machinery/Machinery';
+import { OurClients } from './pages/Our_clients/OurClients';
+import { Machinery } from './pages/Machinery/Machinery';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {

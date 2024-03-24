@@ -1,10 +1,9 @@
 import React from "react";
-import './MachineryList.css';
+import { SmallNavbar } from "../../components/small_navbar/SmallNavbar";
 import fakeData from "./MOCK_DATA.json";
 import {useTable} from 'react-table';
 
-
-function MachineryList() {
+export const Machinery = ({title}) => {
     const data = React.useMemo(() => fakeData, []);
   const columns = React.useMemo(
     () => [
@@ -43,8 +42,13 @@ function MachineryList() {
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
     useTable({ columns, data });
 
-  return (
-    <div className="machinery_list_section">
+    return (
+       <>
+            <SmallNavbar title = {title}/>
+            <section className='machinery_equipment_section'>
+                <h2 className="machinery_equipment_title">Workshop Equiment</h2>
+            </section>
+            <div className="machinery_list_section">
         <h2 className="machinery_list_title">Machinery's List</h2>
       <div className="machinery_list_container">
         <table {...getTableProps()}>
@@ -74,7 +78,6 @@ function MachineryList() {
         </table>
       </div>
     </div>
-  );
+       </>
+    )
 }
-
-export default MachineryList;
