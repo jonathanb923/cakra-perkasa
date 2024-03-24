@@ -1,9 +1,11 @@
 import React from "react";
-import './ClientsContent.css'
+import { SmallNavbar } from "../../components/small_navbar/SmallNavbar";
 
-export const ClientsContent = () => {
+export const OurClients = ({title}) => {
     return (
-        <div className="clients_content_container">
+       <div>
+            <SmallNavbar title = {title}/>
+            <div className="clients_content_container">
            <div className="clients_content_first_line">
                 <div className="clients_content_list">
                     <h3>Coal Mining</h3>
@@ -139,5 +141,6 @@ export const ClientsContent = () => {
                 </div>
            </div>
         </div>
+       </div>
     )
 }
