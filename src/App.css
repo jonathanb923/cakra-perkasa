@@ -496,6 +496,8 @@ input[type=text], select, textarea {
     /* width: 1250px; */
     margin: auto;
     padding-inline-start: 0;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
   }
   
