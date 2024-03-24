@@ -1,4 +1,6 @@
 
+import React, { useState } from 'react';
+import { Context } from './context/Context'
 import './App.css';
 import { About } from './pages/About_us/About';
 import Home from './pages/Home/Home';
@@ -8,9 +10,14 @@ import { OurClients } from './pages/Our_clients/OurClients';
 import { Machinery } from './pages/Machinery/Machinery';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App() {
+const App = () => {
+  const [language, setLanguage] = useState('English');
   return (
-    <>
+    <Context.Provider
+      value={{
+        language, setLanguage
+      }}
+    >
       <Router>
         <Routes>
           <Route
@@ -46,7 +53,7 @@ function App() {
         </Routes>
       </Router>
       <Footer/>
-    </>
+    </Context.Provider>
   );
 }
 
