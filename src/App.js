@@ -9,6 +9,7 @@ import { Footer } from './components/footer/Footer';
 import { OurClients } from './pages/Our_clients/OurClients';
 import { Machinery } from './pages/Machinery/Machinery';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { ProductService } from './pages/Product_service/ProductService';
 
 const App = () => {
   const [language, setLanguage] = useState('English');
@@ -28,7 +29,7 @@ const App = () => {
           <Route
             exact
             path='/product_service'
-            element={<About title="Product & Service"/>}>
+            element={<ProductService title="Product & Service"/>}>
           </Route>
           <Route
             exact
