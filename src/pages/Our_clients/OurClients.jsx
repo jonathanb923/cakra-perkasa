@@ -22,7 +22,7 @@ export const OurClients = ({ title }) => {
             style={{
               display: "flex",
               flexWrap: "wrap",
-              justifyContent: "center",
+              paddingLeft: "10%",
               marginBottom: 50,
             }}
           >
