@@ -1,7 +1,24 @@
 import React , { useState } from 'react'
 import './SmallNavbar.css'
 
-export const SmallNavbar = ({title}) => {
+interface Props {
+    title: string;
+    subTitle?: string;
+  }
+  
+  const defaultProps = {
+    surname: '',
+  };
+
+export const SmallNavbar = (propsIn:Props) => {
+    const props = {...defaultProps, ...propsIn};
+    const subTit = props.subTitle;
+    let subHeader = '';
+    if(typeof subTit === "undefined"){
+        subHeader = "Home / " +  props.title;
+    } else{
+        subHeader = "Home / " + props.title + " / " +  props.subTitle;
+    }
     const [openMenu, setOpenMenu] = useState(false);
     const toggleMenu = () =>{
         setOpenMenu(!openMenu);
@@ -50,9 +67,9 @@ export const SmallNavbar = ({title}) => {
             </nav>
             <div className="small_navbar_sect">
                 <div>
-                    <h1 className='small_navbar_h1'>{title}</h1> 
+                    <h1 className='small_navbar_h1'>{props.title}</h1> 
                     <br />
-                    <h3 className='small_navbar_h3'>Home / {title}</h3>
+                    <h3 className='small_navbar_h3'>{subHeader}</h3>
                 </div>
             </div>
         </div>

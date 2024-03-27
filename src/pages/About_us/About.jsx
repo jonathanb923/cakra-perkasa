@@ -23,60 +23,80 @@ export const About = ({title}) => {
                     <img className='about_image' src="konstruksi4.png" alt="" />
                 </div>
             </section>
-            <div>
-        <section style={{
-          display: 'flex',
-          justifyContent: 'center'
-        }}>
-          <div
-            style={{
-              marginTop: 30,
-            }}
-          >
-            <h2 className='home_products_title'>Our Specialization</h2>
-            <div 
-              style={{display: 'flex'}}
-            >
-                <div style={{width: '400px'}}>
-                    <div className='home_products_desc'>
-                    <img style={{width: 40, height: 40, marginRight:20}} src="cakra-logo.png" alt="" />
-                    <p className="home_products_item_text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                    </div>
-                    <div className='home_products_desc'>
-                    <img style={{width: 40, height: 40, marginRight:20}} src="cakra-logo.png" alt="" />
-                    <p className="home_products_item_text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                    </div>
-                    <div className='home_products_desc'>
-                    <img style={{width: 40, height: 40, marginRight:20}} src="cakra-logo.png" alt="" />
-                    <p className="home_products_item_text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                    </div>
-                    <div className='home_products_desc'>
-                    <img style={{width: 40, height: 40, marginRight:20}} src="cakra-logo.png" alt="" />
-                    <p className="home_products_item_text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                    </div>
-                </div>
+            <section style={{
+            display: 'flex',
+            justifyContent: 'center',
+            margin: '50px 0',
+            }}>
                 <div
                     style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    height: '100%',
-                    marginLeft: 40
                     }}
                 >
-                    <img style={{height: 485}} src={ProductImg} />
+                    <h2 className='home_products_title'>Our Specialization</h2>
+                    <div 
+                    style={{display: 'flex'}}
+                    >
+                        <div style={{width: '400px'}}>
+                            <div className='home_products_desc'>
+                            <img style={{width: 40, height: 40, marginRight:20}} src="cakra-logo.png" alt="" />
+                            <p className="home_products_item_text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                            </div>
+                            <div className='home_products_desc'>
+                            <img style={{width: 40, height: 40, marginRight:20}} src="cakra-logo.png" alt="" />
+                            <p className="home_products_item_text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                            </div>
+                            <div className='home_products_desc'>
+                            <img style={{width: 40, height: 40, marginRight:20}} src="cakra-logo.png" alt="" />
+                            <p className="home_products_item_text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                            </div>
+                            <div className='home_products_desc'>
+                            <img style={{width: 40, height: 40, marginRight:20}} src="cakra-logo.png" alt="" />
+                            <p className="home_products_item_text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                            </div>
+                        </div>
+                        <div
+                            style={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            height: '100%',
+                            marginLeft: 40
+                            }}
+                        >
+                            <img style={{height: 485}} src={ProductImg} />
+                        </div>
+                   </div>
                 </div>
-                </div>
-            </div>
             </section>
-        </div>
+            <section>
+                <h2 style={{textAlign:"center",}} className='about_title'>Our Group</h2>
+                <div>
+                    <h2>-- Our Group --</h2>
+                    <div className='contact_group_branch'>
+                        <img className='contact_group_img' src="blank.png" alt="" />
+                        <div className='contact_group_branch_detail'>
+                            <h4>
+                            PT. Cakra Perkasa Jayamulia 
+                            </h4>
+                            Jalan xxxxxxxx
+                            <br />
+                            <br />
+                            cakra@cakra.com
+                            <br />
+                            +62222222
+                            <br />
+                            <button>Gallery</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
        </>
     )
 }
