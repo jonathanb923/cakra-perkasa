@@ -10,6 +10,7 @@ import { OurClients } from './pages/Our_clients/OurClients';
 import { Machinery } from './pages/Machinery/Machinery';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ProductService } from './pages/Product_service/ProductService';
+import Gallery from './pages/Gallery/Gallery';
 
 const App = () => {
   const [language, setLanguage] = useState('English');
@@ -50,6 +51,11 @@ const App = () => {
             exact
             path='/machinery'
             element={<Machinery title="Machinery"/>}>
+          </Route>
+          <Route
+            exact
+            path='/gallery'
+            element={<Gallery title="Gallery"/>}>
           </Route>
         </Routes>
       </Router>

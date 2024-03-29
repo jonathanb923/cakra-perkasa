@@ -1,7 +1,26 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from '@emailjs/browser';
 import { SmallNavbar } from "../../components/small_navbar/SmallNavbar";
 
 export const Contact = ({title}) => {
+    const form = useRef();
+
+        const sendEmail = (e) => {
+            e.preventDefault();
+
+            emailjs
+            .sendForm('service_fte1nig', 'template_8idqogm', form.current, {
+                publicKey: 'X-P8fqhv6Ic6mokpS',
+            })
+            .then(
+                () => {
+                console.log('SUCCESS!');
+                },
+                (error) => {
+                console.log('FAILED...', error.text);
+                },
+            );
+        };
     return (
        <div>
             <SmallNavbar title = {title}/>
@@ -41,16 +60,17 @@ export const Contact = ({title}) => {
                     title="Responsive google map"></iframe>
                 </div>
                 <div className="contact_map_contact">
-                    <form action="">
-                    <input type="text" id="home_contact_fname" name="firstname" placeholder="Your First Name.."/>
+                    <form ref={form} onSubmit={sendEmail}>
+                        <label>Name</label>
+                        <input type="text" id="home_contact_fname" name="user_name" placeholder="Your First Name.."/>
+                        <label>Email</label>
+                        <input type="text" id="home_contact_email" name="user_email" placeholder="Your Email.."/>
+                        <label>Number</label>
+                        <input type="text" id="home_contact_phone" name="user_number" placeholder="Your Phone Number.."/>
+                        <label>Message</label>
+                        <textarea className="form_message" name="user_message" id="home_contact_message" cols="30" rows="7" placeholder="Enter Message..."></textarea>
 
-                    <input type="text" id="home_contact_email" name="email" placeholder="Your Email.."/>
-
-                    <input type="text" id="home_contact_phone" name="email" placeholder="Your Phone Number.."/>
-
-                    <textarea className="form_message" name="message" id="home_contact_message" cols="30" rows="7" placeholder="Enter Message..."></textarea>
-
-                    <input className="form_submit_button" type="submit" />
+                        <input className="form_submit_button" type="submit" value="Send"/>
                     </form>
                 </div>
             </div>

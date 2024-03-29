@@ -78,7 +78,6 @@ export const About = ({title}) => {
             <section>
                 <h2 style={{textAlign:"center",}} className='about_title'>Our Group</h2>
                 <div>
-                    <h2>-- Our Group --</h2>
                     <div className='contact_group_branch'>
                         <img className='contact_group_img' src="blank.png" alt="" />
                         <div className='contact_group_branch_detail'>
@@ -92,7 +91,9 @@ export const About = ({title}) => {
                             <br />
                             +62222222
                             <br />
-                            <button>Gallery</button>
+                            <a href="/gallery" >
+                                <button>Gallery</button>
+                            </a>
                         </div>
                     </div>
                 </div>
