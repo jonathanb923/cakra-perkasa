@@ -1,14 +1,182 @@
 [
     {
-        "id":1 , "description":"Hydraulic Crankshaft Grinder", "makers_name":"AMC", "country_of_origin":"Denmark", "model":"K-2700-U", "capacity":"690x2700 mm" , "unit":"1"
+        "id":1 , "description":"Hydraulic Crankshaft Grinder", "makers_name":"AMC", "country_of_origin":"Denmark", "model":"K-2700-U", "capacity":"Ø690x2700 mm" , "unit":"1"
     },
     {
-        "id":2 , "description":"Hydraulic Crankshaft Grinder", "makers_name":"AMC", "country_of_origin":"Denmark", "model":"K-2000-M", "capacity":"690x2190 mm" , "unit":"1"
+        "id":2 , "description":"Hydraulic Crankshaft Grinder", "makers_name":"AMC", "country_of_origin":"Denmark", "model":"K-2000-M", "capacity":"Ø690x2190 mm" , "unit":"1"
     },
     {
-        "id":3 , "description":"Crankshaft Grinder", "makers_name":"Vereco", "country_of_origin":"Italy", "model":"RG.300BU", "capacity":"600x2700 mm" , "unit":"1"
+        "id":3 , "description":"Crankshaft Grinder", "makers_name":"Vereco", "country_of_origin":"Italy", "model":"RG.300BU", "capacity":"Ø600x2700 mm" , "unit":"1"
     },
     {
-        "id":4 , "description":"Crankshaft Grinder", "makers_name":"Sanroso", "country_of_origin":"Italy", "model":"MITO - 280", "capacity":"560 x 2000 mm" , "unit":"1"
+        "id":4 , "description":"Crankshaft Grinder", "makers_name":"Sanroso", "country_of_origin":"Italy", "model":"MITO - 280", "capacity":"Ø560 x 2000 mm" , "unit":"1"
+    },
+    {
+        "id":5 , "description":"Line Boring", "makers_name":"Vereco", "country_of_origin":"Italy", "model":"BO - 2600", "capacity":"ØLB Max  200 x 2600 mm" , "unit":"1"
+    },
+    {
+        "id":6 , "description":"Line Boring", "makers_name":"Matra", "country_of_origin":"Germany", "model":"K - 55", "capacity":"ØLB Max  120 x 1500 mm" , "unit":"1"
+    },
+    {
+        "id":7 , "description":"Line Boring", "makers_name":"Berco", "country_of_origin":"Italy", "model":"BC - 5A", "capacity":"ØLB Max  200 x 2500 mm" , "unit":"1"
+    },
+    {
+        "id":8 , "description":"Surface Grinding", "makers_name":"AMC", "country_of_origin":"Denmark", "model":"PS 1", "capacity":"1750 x 500 mm" , "unit":"1"
+    },
+    {
+        "id":9 , "description":"Surface Grinding", "makers_name":"Vereco", "country_of_origin":"Italy", "model":"RT - 18 - Y", "capacity":"310 x 1250 mm" , "unit":"1"
+    },
+    {
+        "id":10 , "description":"Connecting Rod Boring &  Grinding", "makers_name":"Vereco", "country_of_origin":"Italy", "model":"RB651", "capacity":"ØLB Max 160 x 650 mm" , "unit":"1"
+    },
+    {
+        "id":11 , "description":"Connecting Rod Boring &  Grinding", "makers_name":"Berco", "country_of_origin":"Italy", "model":"ARB 500", "capacity":"ØLB Max 150 x 500 mm" , "unit":"1"
+    },
+    {
+        "id":12 , "description":"Crinder Machine For  connecting Rod % Caps", "makers_name":"Vereco", "country_of_origin":"Italy", "model":"GR 170", "capacity":"-" , "unit":"1"
+    },
+    {
+        "id":13 , "description":"Vertical Boring", "makers_name":"MWM", "country_of_origin":"Germany", "model":"-", "capacity":"ØLB Max 200 mm" , "unit":"1"
+    },
+    {
+        "id":14 , "description":"Vertical Boring", "makers_name":"MWM", "country_of_origin":"China", "model":"T 7220 A", "capacity":"ØLB Max 200 mm" , "unit":"2"
+    },
+    {
+        "id":15 , "description":"Honing", "makers_name":"MWM", "country_of_origin":"Germany", "model":"SZS 200 x 500 C", "capacity":"ØLB Max 500 mm" , "unit":"1"
+    },
+    {
+        "id":16 , "description":"Honing", "makers_name":"MWM", "country_of_origin":"China", "model":"T - 419", "capacity":"ØLB Max 160 mm" , "unit":"1"
+    },
+    {
+        "id":17 , "description":"Portable  Honing", "makers_name":"Cakra", "country_of_origin":"Indonesia", "model":"Type S", "capacity":"ØLB Max 800 mm" , "unit":"1"
+    },
+    {
+        "id":18 , "description":"AC/DC ARC Welding", "makers_name":"Miller", "country_of_origin":"U.S.A.", "model":"Gold Star 402", "capacity":"350 A" , "unit":"2"
+    },
+    {
+        "id":19 , "description":"Meta Spray", "makers_name":"Delta", "country_of_origin":"Taiwan", "model":"-", "capacity":"-" , "unit":"1"
+    },
+    {
+        "id":20 , "description":"Hydraulic Press", "makers_name":"Enerpac", "country_of_origin":"U.S.A.", "model":"P 80", "capacity":"50 ton" , "unit":"3"
+    },
+    {
+        "id":21 , "description":"Over Head Travelling  Crane", "makers_name":"Kone", "country_of_origin":"Finland", "model":"XL - 300", "capacity":"2 ton" , "unit":"1"
+    },
+    {
+        "id":22 , "description":"Heavy Duty Lathe", "makers_name":"Heygenstedct", "country_of_origin":"Germany", "model":"5 Pa", "capacity":"Ø2500 x 8000 mm" , "unit":"1"
+    },
+    {
+        "id":23 , "description":"Gap Lathe", "makers_name":"-", "country_of_origin":"Bulgaria", "model":"SU 850", "capacity":"Ø850 x 6000 mm" , "unit":"1"
+    },
+    {
+        "id":24 , "description":"Gap Lathe", "makers_name":"-", "country_of_origin":"China", "model":"CW 6280", "capacity":"Ø800 x 3000 mm" , "unit":"1"
+    },
+    {
+        "id":25 , "description":"Gap Lathe", "makers_name":"-", "country_of_origin":"China", "model":"CN 6280", "capacity":"Ø800 x 2000 mm" , "unit":"1"
+    },
+    {
+        "id":26 , "description":"Face Lathe", "makers_name":"Hokuei", "country_of_origin":"Japan", "model":"SH - 25", "capacity":"Ø1200 x 1000 mm" , "unit":"1"
+    },
+    {
+        "id":27 , "description":"Gap Lathe", "makers_name":"-", "country_of_origin":"China", "model":"L - 5A", "capacity":"Ø500 x 2000 mm" , "unit":"2"
+    },
+    {
+        "id":28 , "description":"Gap Lathe", "makers_name":"-", "country_of_origin":"China", "model":"C - 6232", "capacity":"Ø390 x 1000 mm" , "unit":"4"
+    },
+    {
+        "id":29 , "description":"High Precision Lathe", "makers_name":"MWM", "country_of_origin":"Germany", "model":"DLZ 450/1250", "capacity":"Ø450 x 1500 mm" , "unit":"1"
+    },
+    {
+        "id":30 , "description":"High Precision Lathe", "makers_name":"MWM", "country_of_origin":"Germany", "model":"DLZ 315/2000", "capacity":"Ø250 x 1250 mm" , "unit":"1"
+    },
+    {
+        "id":31 , "description":"High Precision Lathe", "makers_name":"TOZ", "country_of_origin":"Cheko", "model":"SV 18R", "capacity":"Ø315 x 2000 mm" , "unit":"2"
+    },
+    {
+        "id":32 , "description":"High Precision Lathe", "makers_name":"Matra", "country_of_origin":"Germany", "model":"TP 450 - 15R", "capacity":"Ø320 x 1000 mm" , "unit":"1"
+    },
+    {
+        "id":33 , "description":"Gear Hobing Machine", "makers_name":"-", "country_of_origin":"China", "model":"Y 3180 H", "capacity":"Ø800" , "unit":"1"
+    },
+    {
+        "id":34 , "description":"Plano Milling Machine", "makers_name":"Nigita", "country_of_origin":"Japan", "model":"125 A PO", "capacity":"1000 x 4000 mm" , "unit":"1"
+    },
+    {
+        "id":35 , "description":"Vertical Milling Machine", "makers_name":"Nigita", "country_of_origin":"Japan", "model":"2 UMA", "capacity":"-" , "unit":"1"
+    },
+    {
+        "id":36 , "description":"Universal Milling Machine", "makers_name":"TOZ", "country_of_origin":"Cheko", "model":"CPS1 -PO", "capacity":"-" , "unit":"1"
+    },
+    {
+        "id":37 , "description":"Universal Milling Machine", "makers_name":"-", "country_of_origin":"China", "model":"X - 61W", "capacity":"-" , "unit":"1"
+    },
+    {
+        "id":38 , "description":"Sloting Machine", "makers_name":"-", "country_of_origin":"China", "model":"B - 5032", "capacity":"-" , "unit":"1"
+    },
+    {
+        "id":39 , "description":"Surface Grinding", "makers_name":"-", "country_of_origin":"China", "model":"BC - 6063", "capacity":"630 mm" , "unit":"2"
+    },
+    {
+        "id":40 , "description":"Radal Drilling Machine", "makers_name":"-", "country_of_origin":"China", "model":"Z - 3032", "capacity":"Ø32 x 1000 mm" , "unit":"1"
+    },
+    {
+        "id":41 , "description":"Radal Drilling Machine", "makers_name":"Wakayama", "country_of_origin":"Japan", "model":"NR - 20", "capacity":"Ø80 x 2000" , "unit":"1"
+    },
+    {
+        "id":42 , "description":"Vertical Drilling Machine", "makers_name":"-", "country_of_origin":"China", "model":"T - 5040", "capacity":"Ø40 mm" , "unit":"1"
+    },
+    {
+        "id":43 , "description":"Drilling & Milling Machine", "makers_name":"Matra", "country_of_origin":"Germany", "model":"Midrimat - 3", "capacity":"Ø32mm" , "unit":"4"
+    },
+    {
+        "id":44 , "description":"Horizontal Boring  Machine", "makers_name":"Tokyokikai", "country_of_origin":"Japan", "model":"KS - B", "capacity":"-" , "unit":"1"
+    },
+    {
+        "id":45 , "description":"Horizontal Boring   Machine", "makers_name":"MWM", "country_of_origin":"Germany", "model":"BWF 100/250", "capacity":"-" , "unit":"2 "
+    },
+    {
+        "id":46 , "description":"Portable Line Boring  Machine", "makers_name":"Hofman", "country_of_origin":"Australia", "model":"-", "capacity":"Ø1000 x 6000 mm" , "unit":"2"
+    },
+    {
+        "id":47 , "description":"Cylindrical Grinder  Machine", "makers_name":"-", "country_of_origin":"Rusia", "model":"XC - 3", "capacity":"-" , "unit":"2"
+    },
+    {
+        "id":48 , "description":"Horizontal Surface  Machine", "makers_name":"-", "country_of_origin":"China", "model":"M-7120-A", "capacity":"-" , "unit":"2"
+    },
+    {
+        "id":49 , "description":"Automatic Rollerwekin", "makers_name":"Maruma", "country_of_origin":"Japan", "model":"MRW - F", "capacity":"200 x 630 mm" , "unit":"1"
+    },
+    {
+        "id":50 , "description":"Engine Driven Welding", "makers_name":"Miller", "country_of_origin":"U.S.A.", "model":"-", "capacity":"500 A" , "unit":"1"
+    },
+    {
+        "id":51 , "description":"TIG Welding", "makers_name":"Thermal", "country_of_origin":"Japan", "model":"LS - 300", "capacity":"-" , "unit":"1"
+    },
+    {
+        "id":52 , "description":"MIG Welding", "makers_name":"Minigriph", "country_of_origin":"Australia", "model":"-", "capacity":"300 A" , "unit":"1"
+    },
+    {
+        "id":53 , "description":"TIG Welding", "makers_name":"Hitachi", "country_of_origin":"Japan", "model":"-", "capacity":"400 A" , "unit":"8"
+    },
+    {
+        "id":54 , "description":"Automatic Flan Cutting", "makers_name":"Minigriph", "country_of_origin":"Japan", "model":"-", "capacity":"-" , "unit":"2"
+    },
+    {
+        "id":55 , "description":"Band Saw", "makers_name":"Kyowa", "country_of_origin":"Japan", "model":"KM 700N", "capacity":"Ø700" , "unit":"1"
+    },
+    {
+        "id":56 , "description":"Over-head travelling  Crane", "makers_name":"Demag", "country_of_origin":"Germany", "model":"-", "capacity":"3 + 5 ton" , "unit":"3"
+    },
+    {
+        "id":57 , "description":"Genset", "makers_name":"Cumins", "country_of_origin":"U.S.A.", "model":"-", "capacity":"350 KVA" , "unit":"1"
+    },
+    {
+        "id":58 , "description":"Genset", "makers_name":"Perkins", "country_of_origin":"England", "model":"-", "capacity":"250 KVA" , "unit":"1"
+    },
+    {
+        "id":59 , "description":"Hardness Tester", "makers_name":"Equoip", "country_of_origin":"Switzerland", "model":"-", "capacity":"-" , "unit":"1"
+    },
+    {
+        "id":60 , "description":"Electrical Fumance", "makers_name":"-", "country_of_origin":"Indonesia", "model":"-", "capacity":"Max 1200°C" , "unit":"1"
     }
 ]

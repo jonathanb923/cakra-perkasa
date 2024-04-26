@@ -80,14 +80,90 @@ export const Contact = ({title}) => {
                     <img className='contact_group_img' src="blank.png" alt="" />
                     <div className='contact_group_branch_detail'>
                         <h4>
-                        PT. Cakra Perkasa Jayamulia 
+                        PT. Cakra Perkasa Jayamulia - Banjarmasin
                         </h4>
-                        Jalan xxxxxxxx
+                        JL. Jend.A.Yani KM 13,5 Gambut – Banjar 70112
                         <br />
                         <br />
-                        cakra@cakra.com
+                        cpj@cakraperkasa.com
                         <br />
-                        +62222222
+                        •	(0511) 422 0427
+                        <br />
+                        •	(0511) 422 0428
+                        <br />
+                        •	(0511) 422 0429
+                    </div>
+                </div>
+                <div className='contact_group_branch'>
+                    <img className='contact_group_img' src="blank.png" alt="" />
+                    <div className='contact_group_branch_detail'>
+                        <h4>
+                        PT. Cakra Perkasa Jayamulia – Tanjung
+                        </h4>
+                        JL. Raya Tanjung Balikpapan RT. 006 Kel. Kasiau, Murung Pudak, Tabalong 71571
+                        <br />
+                        <br />
+                        •	cpj-tjg@cakraperkasa.com
+                        <br />
+                        •	cpj-tjg2@cakraperkasa.com
+                        <br />
+                        0812 2120 1694
+                    </div>
+                </div>
+                <div className='contact_group_branch'>
+                    <img className='contact_group_img' src="blank.png" alt="" />
+                    <div className='contact_group_branch_detail'>
+                        <h4>
+                        CV. Cakra Perkasa Teknik (Toko Besi)
+                        </h4>
+                        JL. Nagasari, 128, Mawar, Banjarmasin Tengah,  Banjarmasin, Kalimantan Selatan 70112
+                        <br />
+                        <br />
+                        cakrabesi@gmail.com
+                        <br />
+                        •	+62 812-5362-8881
+                        <br />
+                        •	+62 812-5120-9600
+                    </div>
+                </div>
+                <div className='contact_group_branch'>
+                    <img className='contact_group_img' src="blank.png" alt="" />
+                    <div className='contact_group_branch_detail'>
+                        <h4>
+                        PT Cakra Perkasa Engineering
+                        </h4>
+                        JL. Poros Kabojaya No. 7 – Sangatta Kalimantan Timur 75611
+                        <br />
+                        <br />
+                        cpe.sgt@cakraperkasa.com
+                        <br />
+                        0549 25343
+                    </div>
+                </div>
+                <div className='contact_group_branch'>
+                    <img className='contact_group_img' src="blank.png" alt="" />
+                    <div className='contact_group_branch_detail'>
+                        <h4>
+                        PT Borneo Rotating Pratama
+                        </h4>
+                        JL. Proklamasi No 17, TPA, Manggar, Balikpapan 76116
+                        <br />
+                        <br />
+                        Budiyono@brp.co.id
+                        <br />
+                        +62-542-749-400
+                    </div>
+                </div>
+                <div className='contact_group_branch'>
+                    <img className='contact_group_img' src="blank.png" alt="" />
+                    <div className='contact_group_branch_detail'>
+                        <h4>
+                        Kantor Cakra Surabaya
+                        </h4>
+                        JL. Putat Indah Timur 5/11, Surabaya, Jawa Timur 60225
+                        <br />
+                        <br />
+                        +62 888 0177 7255 (Dewi)
                     </div>
                 </div>
             </div>

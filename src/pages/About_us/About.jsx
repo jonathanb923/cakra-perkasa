@@ -2,10 +2,10 @@ import React from "react";
 import ProductImg from '../../assets/product.png'
 import { SmallNavbar } from "../../components/small_navbar/SmallNavbar";
 
-export const About = ({title}) => {
+export const About = (props) => {
     return (
        <>
-            <SmallNavbar title = {title}/>
+            <SmallNavbar title = {props.title}/>
             <section  className='about_container'>
                 <div className='about_content'>
                     <div className='about_description'>
