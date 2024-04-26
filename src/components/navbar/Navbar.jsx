@@ -1,13 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import BackButton from "../../assets/back-button.svg";
 import "./Navbar.css";
+import { Context } from "../../context/Context";
 
 const Navbar = ({ children }) => {
+  const { language, setLanguage } = useContext(Context);
   const [openMenu, setOpenMenu] = useState(false);
   const toggleMenu = () => {
     setOpenMenu(!openMenu);
   };
-
+  function changeLang(lang) {
+    setLanguage(lang);
+  }
+  console.log(language);
   return (
     <>
       <div
@@ -52,38 +57,40 @@ const Navbar = ({ children }) => {
               <li>
                 <div className="dropdown">
                   <a href="/product_service" className="menu-item">
-                    Product & Service
+                    {language === "en"
+                      ? "Product & Service"
+                      : "Produk & Layanan"}
                   </a>
                 </div>
               </li>
               <li>
                 <a href="/machinery" className="menu-item">
-                  Machinery
+                  {language === "en" ? "Machinery" : "Mesin"}
                 </a>
               </li>
               <li>
                 <a href="/clients" className="menu-item">
-                  Our Clients
+                  {language === "en" ? "Our Clients" : "Klien Kami"}
                 </a>
               </li>
               <li>
                 <a href="/about" className="menu-item">
-                  About Us
+                  {language === "en" ? "About Us" : "Tentang Kami"}
                 </a>
               </li>
               <li>
                 <a href="/contact" className="menu-item">
-                  Contact us
+                  {language === "en" ? "Contact Us" : "Hubungi Kami"}
                 </a>
               </li>
               <li>
                 <div className="dropdown">
                   <a href="#Home" className="menu-item">
-                    Language
+                    {language === "en" ? "Language" : "Bahasa"}
                   </a>
                   <div className="dropdown-content">
-                    <a href="#test">English</a>
-                    <a href="#test">Indonesia</a>
+                    <a onClick={() => changeLang("en")}>English</a>
+                    <a onClick={() => changeLang("id")}>Indonesia</a>
                   </div>
                 </div>
               </li>

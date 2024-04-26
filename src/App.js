@@ -13,7 +13,8 @@ import { ProductService } from './pages/Product_service/ProductService';
 import Gallery from './pages/Gallery/Gallery';
 
 const App = () => {
-  const [language, setLanguage] = useState('English');
+  const [language, setLanguage] = useState('en');
+  // const value = { language, setLanguage };
   return (
     <Context.Provider
       value={{
