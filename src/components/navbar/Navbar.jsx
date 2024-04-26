@@ -2,8 +2,10 @@ import React, { useState, useContext } from "react";
 import BackButton from "../../assets/back-button.svg";
 import "./Navbar.css";
 import { Context } from "../../context/Context";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = ({ children }) => {
+  let navigate = useNavigate();
   const { language, setLanguage } = useContext(Context);
   const [openMenu, setOpenMenu] = useState(false);
   const toggleMenu = () => {
@@ -50,13 +52,16 @@ const Navbar = ({ children }) => {
                 }}
               />
               <li>
-                <a href="/" className="menu-item">
+                <a onClick={() => navigate("/")} className="menu-item">
                   Home
                 </a>
               </li>
               <li>
                 <div className="dropdown">
-                  <a href="/product_service" className="menu-item">
+                  <a
+                    onClick={() => navigate("/product_service")}
+                    className="menu-item"
+                  >
                     {language === "en"
                       ? "Product & Service"
                       : "Produk & Layanan"}
@@ -64,22 +69,22 @@ const Navbar = ({ children }) => {
                 </div>
               </li>
               <li>
-                <a href="/machinery" className="menu-item">
+                <a onClick={() => navigate("/machinery")} className="menu-item">
                   {language === "en" ? "Machinery" : "Mesin"}
                 </a>
               </li>
               <li>
-                <a href="/clients" className="menu-item">
+                <a onClick={() => navigate("/clients")} className="menu-item">
                   {language === "en" ? "Our Clients" : "Klien Kami"}
                 </a>
               </li>
               <li>
-                <a href="/about" className="menu-item">
+                <a onClick={() => navigate("/about")} className="menu-item">
                   {language === "en" ? "About Us" : "Tentang Kami"}
                 </a>
               </li>
               <li>
-                <a href="/contact" className="menu-item">
+                <a onClick={() => navigate("/contact")} className="menu-item">
                   {language === "en" ? "Contact Us" : "Hubungi Kami"}
                 </a>
               </li>
